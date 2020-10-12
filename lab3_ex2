@@ -1,0 +1,6 @@
+from numpy import *
+from phiz_const import *
+v = sqrt((G*h * (tan(B)**2))/(2*(1 - tan(B)*tan(a))*(cos(a))**2))
+print(v)
+n = (2/sqrt(pi)) * (H/(k*T)**1.5) * ei **(-ei/(k*T)) * ei ** (T/2)
+print(n)
