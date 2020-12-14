@@ -53,7 +53,7 @@ def update(t):
     
     ax.set_xlabel(f'Путь: {np.around(x, 3)} метров')
     ax.set_title(f'Время:{np.around (t, 3)} секунд')
-    
+ax.grid()
     
 print(f'Время на торомжение тела: {np.around(T, 3)} секунд')
 print(f'Тормозной путь: {np.around(S, 3)} метров')    
