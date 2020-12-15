@@ -55,7 +55,7 @@ def update(t):
     ax.set_title(f'Время:{np.around (t, 3)} секунд')
 ax.grid()
     
-print(f'Время на торомжение тела: {np.around(T, 3)} секунд')
+print(f'Время на торможение тела: {np.around(T, 3)} секунд')
 print(f'Тормозной путь: {np.around(S, 3)} метров')    
 
 t = np.linspace(0, T, 100)
